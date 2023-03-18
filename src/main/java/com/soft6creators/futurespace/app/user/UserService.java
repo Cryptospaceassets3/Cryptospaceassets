@@ -54,7 +54,7 @@ public class UserService {
 		}
 
 		try {
-			sendVerificationEmail(user);
+			//sendVerificationEmail(user);
 		} catch (MessagingException e) {
 			e.printStackTrace();
 		} catch (UnsupportedEncodingException e) {
